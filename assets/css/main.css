@@ -81,12 +81,12 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  margin: 40px 0;
 }
 
 .card .form-row__input {
   width: 45%;
   padding: 10px;
-  margin: 25px auto;
   border: none;
   font-size: 16px;
   padding: 10px 16px;
@@ -102,5 +102,46 @@
   -webkit-box-shadow: 0 0 5px #005000;
           box-shadow: 0 0 5px #005000;
   border-radius: 4px;
+}
+
+.card .form-row__seria {
+  width: 30%;
+  padding: 10px;
+  background: #DDDDDD;
+  color: #1f1f1f;
+  font-size: 16px;
+  border: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.card .form-row__input-seriya {
+  width: 30%;
+  padding: 10px;
+  border: none;
+  font-size: 16px;
+  padding: 10px 16px;
+  outline: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.card .form-row__input-seriya:focus {
+  border-bottom-color: #008080;
+  -webkit-box-shadow: 0 0 5px #005000;
+          box-shadow: 0 0 5px #005000;
+  border-radius: 4px;
+}
+
+.card .form-row__gender {
+  width: 50%;
+  padding: 10px;
+  background: #DDDDDD;
+  color: #1f1f1f;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 /*# sourceMappingURL=main.css.map */
