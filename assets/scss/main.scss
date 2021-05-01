@@ -57,8 +57,12 @@
         justify-content: space-between;
         margin: 40px 0;
     }
-    .form-row__input {
+    .form-row__input-box {
+        display: flex;
+        flex-direction: column;
         width: 45%;
+    }
+    .form-row__input {
         padding: 10px;
         border: none;
         font-size: 16px;
@@ -106,4 +110,12 @@
         outline: none;
         border-bottom: 1px solid rgba(0, 0, 0, 0.1);
     }
+}
+
+.error {
+    color: red;
+}
+
+.succes {
+    color: green;
 }

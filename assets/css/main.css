@@ -84,8 +84,18 @@
   margin: 40px 0;
 }
 
-.card .form-row__input {
+.card .form-row__input-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   width: 45%;
+}
+
+.card .form-row__input {
   padding: 10px;
   border: none;
   font-size: 16px;
@@ -143,5 +153,13 @@
   border: none;
   outline: none;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.error {
+  color: red;
+}
+
+.succes {
+  color: green;
 }
 /*# sourceMappingURL=main.css.map */
