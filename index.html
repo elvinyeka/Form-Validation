@@ -55,25 +55,81 @@
                     <h3>Hesab Məlumatlar</h3>
                 </div>
                 <div class="row">
-                    <form action="#!" class="form-group" id="signup">
+                    <form action="#!" id="signup" novalidate>
                         <div class="form-row">
-                            <div class="form-row__input-box">
-                                <input class="form-row__input" type="text" id="name" placeholder="Ad">
-                                <small style="margin-top: 20px; font-size: 12px;"></small>
+                            <div class="form-group">
+                                <input class="form-row__input" type="text" placeholder="Ad" name="username" id="username">
+                                <small class="error-mesage"></small>
+                                <svg class="icon icon-success hidden hidden" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                                </svg>
+                                <svg class="icon icon-error hidden" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                                    <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7 4a1 1 0 11-2 0 1 1 0 012 0zm-1-9a1 1 0 00-1 1v4a1 1 0 102 0V6a1 1 0 00-1-1z" clip-rule="evenodd" />
+                                </svg>
+                                <small class="error-message"></small>
                             </div>
-                            <div class="form-row__input-box">
-                                <input class="form-row__input" type="text" id="surname" placeholder="Soyad">
-                                <small style="margin-top: 15px; font-size: 12px;"></small>
-                            </div>
-                        </div>
-                        <div class="form-row">
-                            <input class="form-row__input" type="email" id="email" placeholder="E-poçt ünvanı">
-                            <input class="form-row__input" type="text" id="phone" placeholder="+(994)xx xxx-xx-xx">
-                        </div>
-                        <div class="form-row">
-                            <input class="form-row__input" type="password" id="password" placeholder="Şifrə">
-                            <input class="form-row__input" type="password" id="password" placeholder="Şifrə təkrar">
 
+                            <div class="form-group">
+                                <input class="form-row__input" type="text" id="surname" placeholder="Soyad">
+                                <small class="error-mesage"></small>
+                                <svg class="icon icon-success hidden hidden" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                                </svg>
+                                <svg class="icon icon-error hidden" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                                    <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7 4a1 1 0 11-2 0 1 1 0 012 0zm-1-9a1 1 0 00-1 1v4a1 1 0 102 0V6a1 1 0 00-1-1z" clip-rule="evenodd" />
+                                </svg>
+                                <small class="error-message"></small>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <input class="form-row__input" type="email" id="email" placeholder="E-poçt ünvanı">
+                                <small class="error-mesage"></small>
+                                <svg class="icon icon-success hidden hidden" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                                </svg>
+                                <svg class="icon icon-error hidden" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                                    <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7 4a1 1 0 11-2 0 1 1 0 012 0zm-1-9a1 1 0 00-1 1v4a1 1 0 102 0V6a1 1 0 00-1-1z" clip-rule="evenodd" />
+                                </svg>
+                                <small class="error-message"></small>
+                            </div>
+                            <div class="form-group">
+                                <input class="form-row__input" type="text" id="phone" placeholder="+(994)xx xxx-xx-xx">
+                                <small class="error-mesage"></small>
+                                <svg class="icon icon-success hidden hidden" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                                </svg>
+                                <svg class="icon icon-error hidden" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                                    <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7 4a1 1 0 11-2 0 1 1 0 012 0zm-1-9a1 1 0 00-1 1v4a1 1 0 102 0V6a1 1 0 00-1-1z" clip-rule="evenodd" />
+                                </svg>
+                                <small class="error-message"></small>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <input class="form-row__input" type="password" id="password" placeholder="Şifrə">
+                                <i class="far fa-eye form-eye" id="password-ico1"></i>
+                                <small class="error-mesage"></small>
+                                <svg class="icon icon-success hidden hidden" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                                </svg>
+                                <svg class="icon icon-error hidden" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                                    <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7 4a1 1 0 11-2 0 1 1 0 012 0zm-1-9a1 1 0 00-1 1v4a1 1 0 102 0V6a1 1 0 00-1-1z" clip-rule="evenodd" />
+                                </svg>
+                                <small class="error-message"></small>
+                            </div>
+                            <div class="form-group">
+                                <input class="form-row__input" type="password" id="confirm-password" placeholder="Şifrə təkrar">
+                                <i class="far fa-eye form-eye" id="password-ico2"></i>
+                                <small class="error-mesage"></small>
+                                <svg class="icon icon-success hidden hidden" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                                </svg>
+                                <svg class="icon icon-error hidden" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                                    <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7 4a1 1 0 11-2 0 1 1 0 012 0zm-1-9a1 1 0 00-1 1v4a1 1 0 102 0V6a1 1 0 00-1-1z" clip-rule="evenodd" />
+                                </svg>
+                                <small class="error-message"></small>
+                            </div>
                         </div>
                         <div class="form-row">
                             <select class="form-row__seria" name="seria">
@@ -94,7 +150,7 @@
                         </div>
                         <h6>Doğum tarixi*</h6>
                         <div class="form-row">
-                            <select name="day" id="dogum">
+                            <select class="date" name="day" id="dogum">
                                 <option value>Gün</option>
                                 <option value="1">1</option>
                                 <option value="2">2</option>
@@ -129,7 +185,7 @@
                                 <option value="30">30</option>
                                 <option value="31">31</option>
                             </select>
-                            <select name="month">
+                            <select class="date" name="month">
                                 <option value=>Ay</option>
                                 <option value="01">Yanvar</option>
                                 <option value="02">Fevral</option>
@@ -144,8 +200,8 @@
                                 <option value="11">Noyabr</option>
                                 <option value="12">Dekabr</option>
                             </select>
-                            <select name="year">
-                                <option selected>Il</option>
+                            <select class="date" name="year">
+                                <option selected>İl</option>
                                 <option value="2003">2003</option>
                                 <option value="2002">2002</option>
                                 <option value="2001">2001</option>
@@ -202,18 +258,32 @@
                                 <option value="1950">1950</option>
                             </select>
                         </div>
-                        <div class="form-row">
+                        <div class="form-check">
                             <input type="checkbox" name="qayda" id="qayda">
                             <label for="qayda">Qaydalarla razıyam</label>
                         </div>
-                        <input type="submit" value="Qeydiyyatdan keç">
+                        <div class="btns">
+                            <input class="signup-btn" type="submit" value="Qeydiyyatdan keç">
+                            <button class="info-btn" data-target-modal>Qaydalarla tanış olun</button>
+                        </div>
                     </form>
                 </div>
                 <div class="form-footer">
                     <p>Hesab məlumatlarını dəqiq doldurmanızı xahiş edirik .</p>
                 </div>
+                <div class="modal " id="modal">
+                    <div class="modal-header">
+                        <h3 class="modal-title">Qeydiyyatdan keçmə qaydaları</h3>
+                        <button class="close-button" data-target-close>&#10006;</button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Qeydiyyatdan zamanı bütün xanalar düzgün doldurumağınızı xahiş edirik</p>
+                    </div>
+
+                </div>
             </div>
         </div>
+        <div id="overlay"></div>
     </main>
 
     <!--=========================================================================-->
