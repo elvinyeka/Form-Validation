@@ -115,7 +115,7 @@ function getPassword() {
     if (!isRequired(checkpassword)) {
         errorMessage(password, 'Xananı doldurun!', 'error');
     } else if (!isPasswordSecure(checkpassword)) {
-        errorMessage(password, `Şifrə minimum 8 xarakter, 1 reqem 1 böyük xarakter və 1 balaca xarakter olmalıdır`, 'error');
+        errorMessage(password, `Şifrə minimum 8 xarakter, reqem  və 1 balaca hərflərdən olmalıdır`, 'error');
     } else {
         errorMessage(password, '', 'success');
     }
